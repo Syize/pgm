@@ -75,6 +75,11 @@ class Reader:
         self.data = data 
 
         return data 
+        
+    def show_img(self):
+        plt.imshow(self.data)
+        plt.show()
+
 
 
 def test():

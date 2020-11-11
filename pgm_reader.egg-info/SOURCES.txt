@@ -1,0 +1,8 @@
+README.md
+setup.py
+pgm_reader/__init__.py
+pgm_reader/pgm_reader.py
+pgm_reader.egg-info/PKG-INFO
+pgm_reader.egg-info/SOURCES.txt
+pgm_reader.egg-info/dependency_links.txt
+pgm_reader.egg-info/top_level.txt
