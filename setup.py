@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pypgm", # Replace with your own username
+    name="pgmreader", # Replace with your own username
     version="0.0.1",
     author="Benjamin Evans",
     author_email="19811799@sun.ac.za",

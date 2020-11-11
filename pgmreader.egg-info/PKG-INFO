@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: pypgm
+Name: pgmreader
 Version: 0.0.1
 Summary: A Python package for reading pgm files
 Home-page: https://github.com/BDEvan5/pgm

@@ -1,8 +1,0 @@
-README.md
-setup.py
-pypgm/__init__.py
-pypgm/pgm_reader.py
-pypgm.egg-info/PKG-INFO
-pypgm.egg-info/SOURCES.txt
-pypgm.egg-info/dependency_links.txt
-pypgm.egg-info/top_level.txt
