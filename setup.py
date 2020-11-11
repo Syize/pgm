@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pgmreader", # Replace with your own username
+    name="pgm_reader",  # Replace with your own username
     version="0.0.1",
     author="Benjamin Evans",
     author_email="19811799@sun.ac.za",
@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/BDEvan5/pgm",
-    packages=setuptools.find_packages(),
+    packages=['pgm_reader'],
     classifiers=[
         "Programming Language :: Python :: 3",
         'License :: OSI Approved :: MIT License',
