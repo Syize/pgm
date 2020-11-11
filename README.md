@@ -1,12 +1,12 @@
-# pgm
+# PyPgm
 
-This package is for reading pgm files.
+This package is for reading portable greymap files.
 
-Functionality will later be added for writing pgm files.
+Functionality still to be added for writing pgm files.
 
 # Usage
 
-```
+```python
 f = 'pgm_file.pgm'
 reader = Reader()
 image = reader.read_pgm(f)

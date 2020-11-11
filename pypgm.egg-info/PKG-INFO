@@ -1,21 +1,25 @@
 Metadata-Version: 2.1
-Name: pypgm-benjaminevans316
+Name: pypgm
 Version: 0.0.1
 Summary: A Python package for reading pgm files
 Home-page: https://github.com/BDEvan5/pgm
 Author: Benjamin Evans
 Author-email: 19811799@sun.ac.za
 License: UNKNOWN
-Description: # pgm
+Description: # PyPgm
         
-        This package is for reading pgm files.
+        This package is for reading portable greymap files.
         
-        Functionality will later be added for writing pgm files.
+        Functionality still to be added for writing pgm files.
         
         # Usage
         
-        
-        
+        ```python
+        f = 'pgm_file.pgm'
+        reader = Reader()
+        image = reader.read_pgm(f)
+        wdith = reader.width
+        ```
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

@@ -1,7 +1,0 @@
-README.md
-setup.py
-pypgm/__init__.py
-pypgm_benjaminevans316.egg-info/PKG-INFO
-pypgm_benjaminevans316.egg-info/SOURCES.txt
-pypgm_benjaminevans316.egg-info/dependency_links.txt
-pypgm_benjaminevans316.egg-info/top_level.txt

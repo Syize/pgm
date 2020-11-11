@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pypgm-benjaminevans316", # Replace with your own username
+    name="pypgm", # Replace with your own username
     version="0.0.1",
     author="Benjamin Evans",
     author_email="19811799@sun.ac.za",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        'License :: OSI Approved :: MIT License',
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
