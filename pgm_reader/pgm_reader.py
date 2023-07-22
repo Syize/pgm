@@ -1,5 +1,15 @@
 import numpy as np 
 from matplotlib import pyplot as plt
+import logging
+
+
+# init logger
+logger = logging.getLogger("pgm reader")
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s :: %(message)s", datefmt="%m-%d %H:%M:%S")
+handler = logging.StreamHandler()
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+logger.setLevel(logging.DEBUG)
 
 
 class Reader:
@@ -13,7 +23,7 @@ class Reader:
         with open(pgm_file_name, 'rb') as f:
             codec = f.readline()
 
-        print(f"Codec: {codec}")
+        logger.debug(f"Codec: {codec}")
         if codec == b"P2\n":
             return self._read_p2(pgm_file_name)
         elif codec == b'P5\n':
@@ -22,7 +32,7 @@ class Reader:
             raise Exception(f"Incorrect format of PGM: {codec}")
 
     def _read_p2(self, pgm_name):
-        print(f"Reading P2 maps")
+        logger.debug(f"Reading P2 maps")
         with open(pgm_name, 'r') as f:
             lines = f.readlines()
 
@@ -48,7 +58,7 @@ class Reader:
         return data
     
     def _read_p5(self, pgm_name):
-        print(f"Reading P5 maps")
+        logger.debug(f"Reading P5 maps")
         with open(pgm_name, 'rb') as pgmf:
             assert pgmf.readline() == b'P5\n'
 
